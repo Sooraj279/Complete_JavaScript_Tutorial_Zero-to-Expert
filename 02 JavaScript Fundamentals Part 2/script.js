@@ -2,7 +2,7 @@
 
 //<---Ch 1 Activating Strict Mode-->
 
-'use strict';
+"use strict";
 
 /*
 //we use strict mode to write a secure JS code
@@ -29,7 +29,6 @@ const private = 545;
 
 //output : SyntaxError: Unexpected strict mode reserved word 
 */
-
 
 //<---Ch 2 Functions--->
 
@@ -79,9 +78,7 @@ console.log(processedJuice);
 //return keyword will immediately exit the function that means no other statements will execute in that function after that 
 */
 
-
 //<---Ch 3 Function Declarations Vs. Expressions--->
-
 
 /*
 //Function Declaration
@@ -130,9 +127,7 @@ const sayWorld2 = function(){
 //It's totally on your personal choice just know how to use both
 */
 
-
 //<---Ch 4 Arrow Functions (ES6 update)--->
-
 
 /*
 //Arrow Function
@@ -166,9 +161,7 @@ console.log(yearUntilRetirement2(2000, "Sooraj"));
 //We will learn about 'this' keyword later
 */
 
-
 //<---Ch 5 Functions calling other Functions--->
-
 
 /*
 //To understand this let us take the fruitProcessor example but this time the fruits is to cut in pieces
@@ -188,9 +181,7 @@ function fruitProcessor(apples, oranges){
 console.log(fruitProcessor(3,4));
 */
 
-
 // Coding Challenge #1
-
 
 // Back to the two gymnastics teams, the Dolphins and the Koalas! There is a new gymnastics discipline, which works differently.
 // Each team competes 3 times, and then the average of the 3 scores is calculated (so one average score per team).
@@ -239,9 +230,7 @@ console.log(scoreDolphins, scoreKoalas);
 checkWinner(scoreDolphins, scoreKoalas);
 */
 
-
 //<---Ch 6 Introduction to Arrays--->
-
 
 /*
 //First Data Structure
@@ -304,9 +293,7 @@ const calcAge = function (birthYeah) {
   console.log(ages);
   */
 
-
-//<---Ch 7 Basic Array Operations (Methods)--->   
-
+//<---Ch 7 Basic Array Operations (Methods)--->
 
 /*
 const friends = ['Ruben', 'Oggy', 'Prj Rocks'];
@@ -392,9 +379,7 @@ const totals = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
 console.log(bills, tips, totals);
 */
 
-
 //<---Ch 8 Introduction to Objects--->
-
 
 /*
 //Array - Only values with index
@@ -418,7 +403,6 @@ const moodyObject = {
 
 //The order of the value now don't matters when we are trying to retive them
 */
-
 
 //<---Ch 9 Dot Vs. Bracket Notation--->
 
@@ -458,7 +442,6 @@ if (moodyObject[interestedIn]) {
   moodyObject['email'] = 'xyz@yahoo.in';
   console.log(moodyObject);
   */
-
 
 //<---Ch 10 Object Methods--->
 
@@ -582,7 +565,6 @@ if (mark.bmi > john.bmi) {
 }
 */
 
-
 //<---Ch 11 Iteration : The For Loop--->
 
 /*
@@ -644,9 +626,7 @@ for (let i = 0; i < years.length; i++) {
 }
 */
 
-
 //<---Ch 13 Looping Backwards and Loops in Loops--->
-
 
 /*
 const moodyArray = [
@@ -684,9 +664,7 @@ for (let exercise = 1; exercise < 4; exercise++) {
 }
 */
 
-
 //<---Ch 14 The While Loop & Do while loop--->
-
 
 /*
 let rep = 1;
@@ -772,6 +750,5 @@ console.log(calcAverage([2, 3, 7]));
 console.log(calcAverage(totals));
 console.log(calcAverage(tips));
 */
-
 
 //<---END OF FUNDAMENTALS PART 2--->
