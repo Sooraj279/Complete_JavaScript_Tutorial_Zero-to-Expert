@@ -1,0 +1,6 @@
+{
+  "html.format.contentUnformatted": "",
+  "[markdown]": {
+    "editor.formatOnSave": false
+  }
+}
